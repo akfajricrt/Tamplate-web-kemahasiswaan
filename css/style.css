@@ -40,18 +40,28 @@ body {
 
 /* carousel */
 
-
-
-
-.data-slider{
-    height: 500px;
-    margin-top: 10px;
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
+.header-dataSlide  h1{
+    font-size:17px;
+    margin-bottom: 30px;
     
-    
+
 }
+.header-dataSlide .btn{
+    font-size: 12px;
+    border: none;
+    color: white;
+    background-color: #E67817;
+    margin-top: 15px;
+    margin-bottom: 50px;
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+
 
 .data-slider .carousel-caption h1{
     font-size:22px;
@@ -59,19 +69,20 @@ body {
    
 }
 
-.data-slider .carousel-caption p{
-    font-size:15px;
+.header-dataSlide  p, .data-slider .carousel-caption p{
+    font-size:12px;
 }
 
 
 
-.data-slider hr {
+.header-dataSlide  hr , .data-slider hr {
     background-color: #E67817;
     width: 80px;
     border-width: 2px;
 }
 
-.data-slider .btn {
+ .data-slider .btn{
+    
     font-size: 14px;
     border: none;
     color: white;
@@ -82,6 +93,7 @@ body {
     padding-bottom: 8px;
     padding-left: 20px;
     padding-right: 20px;
+
 }
 
 
@@ -368,6 +380,16 @@ footer {
     transform: scale(1.2);
 }
 
+.data-slider2{
+    display: block;
+    margin-top: 70px;
+    max-height: 150px;
+}
+
+.header-dataSlide{
+    display: block;
+}
+
 
 
 
@@ -379,6 +401,21 @@ footer {
 @media (min-width: 992px) {
 
     /* agenda */
+    .header-dataSlide{
+        display: none;
+    }
+    .data-slider{
+        display: block;
+        height: 500px;
+        margin-top: 10px;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+    }
+
+    .data-slider2{
+        display: none;
+    }
 
     .agenda .text-agenda h4{
         font-size: 20px;
